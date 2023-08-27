@@ -1,0 +1,29 @@
+.CardItem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(243, 243, 190)
+  }
+
+.Info{
+    display: flex;
+    flex-direction: column;
+}
+
+.Option{
+    text-decoration: none;
+    display: flex;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(219, 168, 250);
+    color: rgb(116, 107, 107);
+    border:  1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}

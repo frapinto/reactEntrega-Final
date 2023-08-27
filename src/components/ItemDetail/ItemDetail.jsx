@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import ItemCount from "../ItemCount/ItemCount";
 import { Link } from "react-router-dom";
 import { CartContext } from "../../context/CartContext";
+import './ItemDetail.css'
 
 const ItemDetail = (props) => {
   const [quantityAdded, setQuantityAdded] = useState(0);
@@ -21,7 +22,7 @@ const ItemDetail = (props) => {
   };
 
   return (
-    <article className="CardItem">
+    <article className="ItemDetailContainer">
       <header className="Header">
         <h2 className="ItemHeader">{props.name}</h2>
       </header>

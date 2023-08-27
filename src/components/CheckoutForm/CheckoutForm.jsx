@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './CheckoutForm.css'
 
 const CheckoutForm = ({onConfirm}) => {
     const [name,setName] = useState('')
@@ -31,7 +32,7 @@ const CheckoutForm = ({onConfirm}) => {
                     <input type="email" className="Input" value={email} onChange={({target}) => setEmail(target.value)}/>
                 </label>
                 <div className="Label">
-                    <button type="submit" className="Button">Crear Orden</button>
+                    <button type="submit" className="CreateOrder">Crear Orden</button>
                 </div>
             </form>
         </div>
